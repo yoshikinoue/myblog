@@ -8,9 +8,14 @@ tags:
   - venv
 ---
 
+## Error returned non-zero exit status 1.
+
 ```bash
 $ python3 -m venv hoge_venv
 Error: Command '['/vagrant/hoge_venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.
+```
+
+```bash
 python3 -m venv --without-pip hoge_venv
 source hoge_venv/bin/activate
 #which python3
