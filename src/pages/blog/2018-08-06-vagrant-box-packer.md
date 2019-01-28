@@ -7,10 +7,10 @@ tags:
   - Vagrant
   - packer
 ---
-# 概要
+## 概要
 hashicorp の packer を使って新規に Vagrant の box を作成その際にディスクサイズを多めに設定する。
 
-## packer のインストール
+### packer のインストール
 
 mac の場合 homebrew を使ってインストールすれば良い、他の環境は公式の[ドキュメント]([https://www.packer.io/docs/index.html](https://www.packer.io/docs/index.html))を読んで欲しい
 
