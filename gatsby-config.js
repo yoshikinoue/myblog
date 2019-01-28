@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: '雑記ブログ',
+    description: 'サラリーマンプログラマーの日記',
+    siteUrl: `https://www.yoshikinoue.net`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -54,7 +55,17 @@ module.exports = {
             options: {
               destinationDir: 'static',
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
         ],
       },
     },
@@ -72,5 +83,8 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-feed`
+    },
   ],
 }
