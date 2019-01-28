@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '雑記ブログ',
+    title: '焼き芋ストロング',
     description: 'サラリーマンプログラマーの日記',
     siteUrl: `https://www.yoshikinoue.net`
   },
