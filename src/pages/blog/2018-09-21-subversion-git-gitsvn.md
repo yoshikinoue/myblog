@@ -6,6 +6,7 @@ description: Subversionのリポジトリからcommitログを引き継いだ形
 tags:
   - Git
   - Subversion
+  - Gitsvn
 ---
 
 ## はじめに
