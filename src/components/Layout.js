@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Navbar from '../components/Navbar'
 import './all.sass'
+require("prismjs/plugins/line-numbers/prism-line-numbers.css")
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
