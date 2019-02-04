@@ -110,5 +110,8 @@ module.exports = {
         //cookieDomain: "example.com",
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+    },
   ],
 }
