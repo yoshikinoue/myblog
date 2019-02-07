@@ -1,6 +1,6 @@
 ---
-templateKey: 'blog-post'
-title: 'Varnish4でガラケーIPアドレスのみアクセスを許可する'
+templateKey: blog-post
+title: Varnish4でガラケーIPアドレスのみアクセスを許可する
 date: 2018-09-27T15:04:10.000Z
 description: 古き良き日本のガラゲー携帯のIPからのアクセスだけを受けたい
 tags:
@@ -37,6 +37,8 @@ if (req.http.host ~ "^hogehoge.com") {
     }
 }
 ```
+
+## docomo_iplist.vcl
 
 ```docomo_iplist.vcl
 "210.153.84.0"/24;
