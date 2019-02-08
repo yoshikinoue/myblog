@@ -22,6 +22,7 @@ const TemplateWrapper = ({ children }) => (
       <div>
         <Helmet>
           <html lang="ja" />
+          <meta name="msvalidate.01" content="4F0F44E371066A5A9E487A574C4C6CCF" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
           
