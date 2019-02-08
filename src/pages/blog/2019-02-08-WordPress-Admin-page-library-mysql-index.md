@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: WordPressで管理画面のライブラリの表示が遅いのでpost_mime_typeのインデックスを貼ったら早くなった。
-date: 2019-02-07T01:47:08.095Z
+date: 2019-02-08T01:47:08.095Z
 description: WordPressの管理画面、ライブラリのパフォーマンスをMySQLのindexで早くした話
 tags:
   - WordPress
