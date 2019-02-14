@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Django dumpdata json output
 date: 2019-02-14T03:06:17.323Z
 description: |-
-  Djangoのmanageコマンドに `dumpdata`, `loaddata` がある。
+  Djangoのmanageコマンドに `dumpdata` , `loaddata` がある。
   開発環境で既に入力された設定データなどを本番環境に持ってくる時や有用
   テストデータを用意する時に使える。
 tags:
