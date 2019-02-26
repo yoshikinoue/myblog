@@ -9,6 +9,8 @@ tags:
 ---
 ### パターン 1
 
+CAST 構文1
+
 ```sql
 SELECT CAST('0123456789' AS SMALLINT)
  Invalid operation: value "0123456789" is out of range for type smallint;
@@ -51,6 +53,8 @@ timestamptz
 ```
 
 ### パターン 2
+
+CAST 構文2
 
 ```sql
 SELECT '0123456789'::SMALLINT
