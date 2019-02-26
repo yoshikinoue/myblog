@@ -18,3 +18,7 @@ SELECT CAST('0001' as integer)
 ```sql
 SELECT '0001'::integer
 ```
+
+
+## 参考
+[CAST 関数および CONVERT 関数](https://docs.aws.amazon.com/ja_jp/redshift/latest/dg/r_CAST_function.html)
