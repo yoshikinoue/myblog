@@ -4,7 +4,7 @@ title: Git-svnでSubversionからGitに移行方法
 date: 2018-09-21T15:04:10.000Z
 description: Subversionのリポジトリからcommitログを引き継いだ形でGitへ移行した際の手順です。また本番環境でのgitへの切替も含んでます。
 tags:
-  - Git
+  - git
   - Subversion
   - Gitsvn
 ---
